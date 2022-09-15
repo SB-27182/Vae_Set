@@ -16,7 +16,7 @@
 Vae1 is a foundational model. It is uses a multivariate Gaussian as the latent distribution and either a bernoulli or gaussian reconstruction density depending on the data type.
 <br>
 <br>
-It is designed to be a very robust and explicit VAE model. This explicit coding style is to allow for significant access to the inner workings of the model. This allows Vae1 to be quickly extended into novel experimental models. Below are some of the design choices that highlight this.
+It is designed to be a very robust and explicit VAE model. This explicit coding style is to allow for significant access to the inner workings of the model. This allows Vae1 to be quickly extended into novel experimental architectures. Below are some of the design choices that make this possible.
 <br>
 <br>
 <br>
