@@ -1,4 +1,4 @@
-## `Vae-Set:` &nbsp; <ins>A collection of expiramental VAEs built on a robust foundational model</ins>
+## `Vae-Set:` &nbsp; A collection of expiramental VAEs built on a robust foundational model
 
 
 <p align="center">
