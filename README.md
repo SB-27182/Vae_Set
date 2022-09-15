@@ -4,7 +4,7 @@
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=555 height=62 />
   </kbd>
   <br>
-  <sub>*For an example of an expiramental model see Vae4 (below)*</sub> 
+  <sub>For an example of an expiramental model see Vae4 (below)</sub> 
 </p>
 
 &nbsp; <sub>*For an example of an expiramental model see Vae4 (below)*</sub> 
