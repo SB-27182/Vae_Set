@@ -8,6 +8,8 @@
   <br>
   <sub>For an example of an experimental model see Vae4 (below)</sub> 
 </p>
-
+<br>
+<br>
+<br>
 
 # `Vae1:` &nbsp; The foundational model. Multivariate Gaussian latent.
