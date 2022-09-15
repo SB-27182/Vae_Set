@@ -39,4 +39,4 @@ Disentanglement/principal-component-analysis, are the consequences of this ortho
 <br>
 <br>
 
-## `Vae4:` &nbsp; A Multivariate Gaussian - Categorical - Joint Density Model
+# `Vae4:` &nbsp; A Multivariate Gaussian - Categorical - Joint Density Model
