@@ -1,5 +1,6 @@
 # <p align='center'><ins>Vae-Set</ins></p>
 
+<p align="center">A family of robustly written, expiremental VAE models</p>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=700 height=77 />
