@@ -21,6 +21,6 @@ Vae1 is designed to be a very robust and explicit VAE model. This explicit codin
 <br>
 <br>
 
-### `Design Choices: `
+## `Design Choices: `
 
 #### `Analysis specific models:`
