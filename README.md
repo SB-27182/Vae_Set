@@ -30,4 +30,8 @@ After training a Vae1, the model state is saved. Analysis-specific variants of V
 Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects between each other. This allows extensions, wherein new objects need to be passed, to be built easily.
 
 #### `Explicit Probability Densities:`
-
+Written while actively heeding the nature of the backwards propagation graph.
+When the latent densities are written explicitly, it reveals the simple laws a variational auto encoder must abide by. We see that the heart of the VAE, the multivariate gaussian density, contains observable elements that can be added, and scaled, while still being inside the gaussian density. This is to say latent density is closed under addition and scalar multiplication. Indeed, the multivariate gaussian is a Hilbert space.
+<br>
+<br>
+Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another space that has caused revolutionary developments in NLP is the fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data.
