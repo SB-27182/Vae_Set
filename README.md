@@ -1,4 +1,5 @@
-# <p align='center'><ins>Vae-Set</ins></p> <br>A family of robustly written, expiremental VAE models
+# <p align='center'><ins>Vae-Set</ins></p> 
+<br>A family of robustly written, expiremental VAE models.
 
 
 <p align="center">
