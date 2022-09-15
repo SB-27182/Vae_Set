@@ -19,7 +19,8 @@ Vae1 is the foundational model. It is uses a multivariate Gaussian as the latent
 Vae1 is designed to be a very robust and explicit VAE model. This explicit coding style is to allow for significant access to the inner workings of the model. This allows Vae1 to be quickly extended into novel experimental models. Below are some of the design choices that highlight this.
 <br>
 <br>
+<br>
 
-## `Design Choices: `
+### `Design Choices: `
 
 #### `Analysis specific models:`
