@@ -10,3 +10,4 @@
 </p>
 
 
+# `Vae1:` &nbsp; The foundational model. Multivariate Gaussian latent.
