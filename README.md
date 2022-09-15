@@ -35,3 +35,8 @@ When the latent densities are written explicitly, it reveals the simple laws a v
 <br>
 <br>
 Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another space that has caused revolutionary developments in NLP is the fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data.
+<br>
+<br>
+<br>
+
+## `Vae4:` &nbsp; A multivariate Gaussian - Categorical - Joint Latent Density Model
