@@ -24,3 +24,10 @@ Vae1 is designed to be a very robust and explicit VAE model. This explicit codin
 ## `Design Choices: `
 
 #### `Analysis specific models:`
+After training a Vae1, the model state is saved. Analysis-specific variants of Vae1 are then able to load in this saved state. The analysis-specific Vae1 are well equipt to traverse the latent density using many parameterized, and manual algorithms. This encapsulation allows different types of analysis-specific extensions to be written apart from the training of the model.
+
+#### `Dictionary Passing:`
+Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects between each other. This allows extensions, where new objects need to be passed, to be easily appended to the basal objects being passed already.
+
+#### `Encapsulated Probability Modules:`
+
