@@ -1,3 +1,4 @@
+## `Vae-Set:` &nbsp; A collection of expiramental VAEs built on a robust foundational model.
 ## <p align='center'><ins>Vae-Set</ins></p> 
 <br><p align='center'>A family of robustly written, expiremental VAE models.</p>
 
