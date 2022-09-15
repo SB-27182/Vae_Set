@@ -1,4 +1,4 @@
-# <ins align="center">Vae-Set</ins>
+# <p align='center'><ins>Vae-Set</ins></p>
 
 <p align="center">
   <kbd>
