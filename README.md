@@ -1,5 +1,5 @@
 # <p align='center'><ins>Vae-Set</ins></p>
-<p align="center">A family of robustly written, expiremental VAE models</p>
+## <p align="center">A family of robustly written, expiremental VAE models</p>
 
 <p align="center">
   <kbd>
