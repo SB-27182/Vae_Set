@@ -42,3 +42,6 @@ Disentanglement/principal-component-analysis, are the consequences of this ortho
 Data is often recognized as existing in some high dimensional manifold. This manifold represents the behavior of the underlying generator function, and thus ML architectures like invertible flow networks, can learn these hyper dimensional smooth structures. <br>
 However in real life, there are often many "states" that these generator functions can be in. In the study of dynamical systems, these "states" are usually intuited as different parameterizations of the underlying generator function, following bifurcation events. 
 (But that's neither here nor there, the point is these "states" exist in data).
+<br>
+<br>
+To a geometer, these would be described as "discrete structures" in the manifold. To a statistician, the data would be described as multi-modal, or "clusters". At anyrate, Vae4 uses a categorical - multivariate gaussian - joint density as the latent probability distribution to  **learn this manifold without the use of any labels.**
