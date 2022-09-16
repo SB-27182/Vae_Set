@@ -60,7 +60,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
 <br>
 
 
-We want to know what this datum should be categorized as. So we input it into Vae4. 
+We want to know what this datum should be categorized as. So we input it into Vae4. The above shows that the categorical signal that defines the 2-cluster and the categorical signal of this anomalous datum, are very different. Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
 
 <p align="center">
   <kbd>
@@ -70,7 +70,7 @@ We want to know what this datum should be categorized as. So we input it into Va
 <br>
 
 
-Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the datum-5 compares to a mean-5 (The most probable 5 observable).
+Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
 
 <p align="center">
   <kbd>
@@ -79,9 +79,13 @@ Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like
 </p>
 <br>
 
+On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its general width, and the width of its line.
+
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
   </kbd>
 </p>
 <br>
+
+However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 has an abnormally small tail (dimension 44).
