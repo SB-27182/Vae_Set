@@ -70,7 +70,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/categorical1.png" width=500 height=182 />
   </kbd>
 </p>
-We want to know what this value should be categorized as. <ins>**There is very little overlap of the anomaly's discrete-signal and the 2-discrete-signal.**</ins> Naturaly, Vae4 does not categorize the anomalous observation as a 2. <ins>**learn this manifold <br>without the use of any labels.**</ins>
+We want to know what this value should be categorized as. <ins>There is very little overlap of the anomaly's discrete-signal and the 2-discrete-signal.</ins> Naturaly, Vae4 does not categorize the anomalous observation as a 2.
 <br>
 Vae4 categorizes the value as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
 <br>
@@ -80,7 +80,7 @@ Vae4 categorizes the value as an element in the 5-cluster. Suppose we would like
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/similarity1.png" width=500 height=241 />
   </kbd>
 </p>
 On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its general width, and the width of its line.
@@ -91,7 +91,7 @@ On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very simi
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=500 height=241 />
   </kbd>
 </p>
 However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 is abnormally small (dimension 44).
