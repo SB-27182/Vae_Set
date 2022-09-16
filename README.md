@@ -1,5 +1,4 @@
 ## `Vae-Set:` &nbsp; A collection of expiramental VAEs built on a robust foundational model
-https://github.com/SB-27182/Vae_Set/blob/master/readme_images/topOfSeven.jpg
 
 <p align="center">
   <kbd>
