@@ -31,7 +31,7 @@ Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects
 The latent probability layers/likekihoods are written explicity. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of the VAE, the multivariate gaussian density, contains observable elements that can be added, and scaled, while still being inside the gaussian density. This is to say, the latent density is closed under addition and scalar multiplication. Indeed, the multivariate gaussian is a Hilbert space.
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/loba-NN/blob/master/assets/examples/mod_loba-NN_readme/LatentOrthoBothDims_lowVar.png" height=245 width=250/>
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs1.png" width=700 height=77 />
   </kbd>
 </p>
 Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data.
