@@ -97,4 +97,4 @@ However, we see here what the issue with the anomalous-5 actually is. Vae4 is sa
 <br>
 <br>
 
- <sub>**Note: Vae2-Var4 are not in this repo at this time. Some of these expiramental models may be publishable.**</sub> 
+ <sub>**Note: Vae2-Vae4 are not in this repo at this time. Some of these expiramental models may be publishable.**</sub> 
