@@ -64,7 +64,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
   </kbd>
 </p>
 We want to know what this datum should be categorized as. So we input it into Vae4. The above shows that the categorical signal that defines the 2-cluster and the categorical signal of this anomalous datum, are very different. Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
-
+<br>
 <br>
 <p align="center">
   <kbd>
