@@ -31,7 +31,7 @@ Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects
 The latent probability layers/likekihoods are written explicity. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of the VAE, the multivariate gaussian density, contains observable elements that can be added, and scaled, while still being inside the gaussian density. This is to say, the latent density is closed under addition and scalar multiplication. Indeed, the multivariate gaussian is a Hilbert space.
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=238 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
   </kbd>
 </p>
 Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data.
@@ -60,7 +60,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
   </kbd>
 </p>
 We want to know what this datum should be categorized as. So we input it into Vae4. The above shows that the categorical signal that defines the 2-cluster and the categorical signal of this anomalous datum, are very different. Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
@@ -71,7 +71,7 @@ We want to know what this datum should be categorized as. So we input it into Va
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
   </kbd>
 </p>
 Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
@@ -82,7 +82,7 @@ Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
   </kbd>
 </p>
 On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its general width, and the width of its line.
@@ -93,7 +93,7 @@ On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very simi
 <br>
 <p align="center">
   <kbd>
-  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=550 height=307 />
   </kbd>
 </p>
 However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 is abnormally small (dimension 44).
