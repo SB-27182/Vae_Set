@@ -62,5 +62,26 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
 
 We want to know what this datum should be categorized as. So we input it into Vae4. 
 
+<p align="center">
+  <kbd>
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  </kbd>
+</p>
+<br>
+
 
 Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the datum-5 compares to a mean-5 (The most probable 5 observable).
+
+<p align="center">
+  <kbd>
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  </kbd>
+</p>
+<br>
+
+<p align="center">
+  <kbd>
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  </kbd>
+</p>
+<br>
