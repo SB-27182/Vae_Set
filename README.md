@@ -77,14 +77,12 @@ Vae4 categorizes the value as an element in the 5-cluster. Suppose we would like
 <br>
 <br>
 <br>
-<br>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/similarity1.png" width=500 height=241 />
   </kbd>
 </p>
 On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its general width, and the width of its line.
-<br>
 <br>
 <br>
 <br>
