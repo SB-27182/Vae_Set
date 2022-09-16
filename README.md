@@ -70,10 +70,9 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/categorical1.png" width=500 height=182 />
   </kbd>
 </p>
-We want to know what this value should be categorized as. There is very little overlap of the anomaly's discrete-signal and the 2-discrete-signal. Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
+We want to know what this value should be categorized as. **<ins>There is very little overlap of the anomaly's discrete-signal and the 2-discrete-signal.</ins>** Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
 <br>
-<br>
-Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
+Vae4 categorizes the value as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
 <br>
 <br>
 <br>
