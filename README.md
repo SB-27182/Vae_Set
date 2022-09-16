@@ -34,7 +34,7 @@ The latent probability layers/likekihoods are written explicity. This reveals th
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=480 height=268 />
   </kbd>
 </p>
-Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data. In this regard, there is a shared core structure between transformers and VAEs. It seems hybrid models are possible. 
+Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another Hilbert space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data. In this regard, there is a shared core structure between transformers and VAEs. It seems hybrid models are possible. 
 <br>
 
 #### `Analysis specific models:`
