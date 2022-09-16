@@ -39,3 +39,6 @@ Disentanglement/principal-component-analysis, are the consequences of this ortho
 <br>
 
 # `Vae4:` &nbsp; A Multivariate Gaussian - Categorical - Joint Density Model
+Data is often recognized as existing in some high dimensional manifold. This manifold represents the behavior of the underlying generator function, and thus ML architectures like invertible flow networks, can learn these hyper dimensional smooth structures. 
+However in real life, there are often many "states" that these generato functions can be in. In the study of dynmical systems, these "states" are usually intuited as different parameterizations of the underlying generator function, following bifurcation events. 
+(But that's neither here nor there, the point is these "states" exist in data).
