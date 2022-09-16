@@ -44,4 +44,4 @@ However in real life, there are often many "states" that these generator functio
 (But that's neither here nor there, the point is these "states" exist in data).
 <br>
 <br>
-To a geometer, these would be described as "discrete structures" in the manifold. To a statistician, the data would be described as multi-modal, or "clusters". At anyrate, Vae4 uses a categorical - multivariate gaussian - joint density as the latent probability distribution to  <ins>**learn this manifold without the use of any labels.**</ins>
+To a geometer, these would be described as "discrete structures" in the manifold. To a statistician, the data would be described as multi-modal, or "clusters". At anyrate, Vae4 uses a categorical - multivariate gaussian - joint density as the latent probability distribution to  <br> <ins>**learn this manifold without the use of any labels.**</ins>
