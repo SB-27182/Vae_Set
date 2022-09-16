@@ -48,3 +48,13 @@ To a geometer, these would be described as "discrete structures" in the manifold
 <br>
 <br>
 
+## `Example Application`
+Although applications of this model are innumerable, here is an example concerning anomaly detection.
+
+Suppose we obtain an anomalous observation from nature. (This can be either a set of data or a single observation.)
+
+
+We want to know what this datum should be categorized as. So we input it into Vae4. 
+
+
+Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the datum-5 compares to a mean-5 (The most probable 5 observable).
