@@ -60,9 +60,10 @@ To a geometer, these would be described as "discrete structures" in the manifold
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/anomalous1.png" width=179 height=200 />
   </kbd>
 </p>
-<br>
 Although applications of this model are innumerable, here is an example concerning anomaly detection.
 Suppose we obtain an anomalous observation from nature. (In reality, this can be either a set of data or a single observation.)
+<br>
+<br>
 <br>
 <p align="center">
   <kbd>
