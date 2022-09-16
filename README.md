@@ -88,4 +88,4 @@ On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very simi
 </p>
 <br>
 
-However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 has an abnormally small tail (dimension 44).
+However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 is abnormally small (dimension 44).
