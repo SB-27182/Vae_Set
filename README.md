@@ -57,41 +57,34 @@ To a geometer, these would be described as "discrete structures" in the manifold
 ## `Example Application`
 Although applications of this model are innumerable, here is an example concerning anomaly detection.
 Suppose we obtain an anomalous observation from nature. (In reality, this can be either a set of data or a single observation.)
-
+<br>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
   </kbd>
 </p>
-<br>
-
-
 We want to know what this datum should be categorized as. So we input it into Vae4. The above shows that the categorical signal that defines the 2-cluster and the categorical signal of this anomalous datum, are very different. Naturaly, Vae4 does not categorize the anomalous observation as a 2. 
 
+<br>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
   </kbd>
 </p>
-<br>
-
-
 Vae4 categorizes the datum as an element in the 5-cluster. Suppose we would like to dig deeper, we want to see how the anomalous-5 compares to a very probable 5, generated from the mean latent dimensions of the 5 cluster.
 
+<br>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
   </kbd>
 </p>
-<br>
-
 On dimensions 49 and 39 we see that the anomalous-5 and the mean-5 are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its general width, and the width of its line.
 
+<br>
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
   </kbd>
 </p>
-<br>
-
 However, we see here what the issue with the anomalous-5 actually is. Vae4 is saying that the top horizontal line of the 5, is abnormally long (dimension 34). Vae4 is also saying that the lower tail of the anomalous-5 is abnormally small (dimension 44).
