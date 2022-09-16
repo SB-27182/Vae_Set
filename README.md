@@ -9,7 +9,7 @@
 </p>
 <br>
 <br>
-<br>
+
 
 ## `Vae1:` &nbsp;
 Vae1 is a foundational model. It is uses a multivariate Gaussian as the latent distribution and either a bernoulli or gaussian reconstruction density depending on the data type.
