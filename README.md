@@ -50,8 +50,14 @@ To a geometer, these would be described as "discrete structures" in the manifold
 
 ## `Example Application`
 Although applications of this model are innumerable, here is an example concerning anomaly detection.
+Suppose we obtain an anomalous observation from nature. (In reality, this can be either a set of data or a single observation.)
 
-Suppose we obtain an anomalous observation from nature. (This can be either a set of data or a single observation.)
+<p align="center">
+  <kbd>
+  <img src="https://github.com/SB-27182/Vae_Set/blob/master/assets/readme_images/topOfSeven.jpg" width=500 height=391 />
+  </kbd>
+</p>
+<br>
 
 
 We want to know what this datum should be categorized as. So we input it into Vae4. 
