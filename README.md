@@ -72,7 +72,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
 </p>
 We want to know what this value should be categorized as. <ins>There is very little overlap of the anomaly's discrete-signal and the 2-discrete-signal.</ins> Naturaly, Vae4 does not categorize the anomalous observation as a <i>2</i>.
 <br>
-Vae4 categorizes the value as an element in the _5-cluster_. Suppose we would like to dig deeper, we want to see how the _anomalous-5_ compares to a very probable _5_, generated from the standard latent dimension set of the _5-cluster_.
+Vae4 categorizes the value as an element in the <b>5-cluster</b>. Suppose we would like to dig deeper, we want to see how the <b>anomalous-5</b> compares to a very probable <b>5</b>, generated from the standard latent dimension set of the <b>5-cluster</b>.
 <br>
 <br>
 <br>
@@ -82,7 +82,7 @@ Vae4 categorizes the value as an element in the _5-cluster_. Suppose we would li
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/similarity1.png" width=500 height=241 />
   </kbd>
 </p>
-On dimensions 49 and 39 we see that the _anomalous-5_ and the _standard-5_ are very similar. Vae4 is saying that the anomalous-5 is very probable with respect to its "_over-all width_", as well as it's "_average width of line_" to have been generated from the standard-distributed 5. This is in the context of hypothesis testing.
+On dimensions 49 and 39 we see that the <b>anomalous-5</b> and the <b>standard-5</b> are very similar. Vae4 is saying that the <b>anomalous-5</b> is very probable with respect to its "<i>over-all width</i>", as well as it's "<i>average width of line</i>" to have been generated from the standard-5 parameterization. This is in the context of hypothesis testing.
 <br>
 <br>
 <br>
@@ -92,7 +92,7 @@ On dimensions 49 and 39 we see that the _anomalous-5_ and the _standard-5_ are v
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/difference1.png" width=500 height=241 />
   </kbd>
 </p>
-However, we see here what the particularities of the _anomalous-5_ actually are. Vae4 is saying that the "_top horizontal line length_" of the 5, has an abnormally large value (dimension 34). Vae4 is also saying that the "_lower-loop to upper-loop size ratio_" is abnormally in favor of the "_upper-loop_" (dimension 44).
+However, we see here what the particularities of the <b>anomalous-5</b> actually are. Vae4 is saying that the "<i>top horizontal line length</i>" of the 5, has an abnormally large value (dimension 34). Vae4 is also saying that the "<i>lower-loop to upper-loop size ratio</i>" is abnormally in favor of the "<i>upper-loop</i>" (dimension 44).
 
 <br>
 <br>
