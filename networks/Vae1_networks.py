@@ -10,7 +10,7 @@ class Vae1_network(nn.Module):
     #--------[Constructor]---------#
     def __init__(self, x_dim, z_dim):
         super().__init__()
-        self.encoder_network = EncoderNet(x_dim, z_dim)#                    can we do without self.z_dim = z_dim ????
+        self.encoder_network = EncoderNet(x_dim, z_dim)
         self.decoder_network = DecoderNet(x_dim, z_dim)
 
     def forward(self, x):
@@ -49,7 +49,6 @@ class EncoderNet(nn.Module):
 
 
     def forward(self, x):
-        #x = Flatten(x)                okay so what is going on here. what is the difference of x.view(x.shape(0), -1) and flattening? Because flattening results in a [n]
         muZ_x, varZ_x, z_x = self.qz_x_call(x)
         return {
             "muZ_x": muZ_x, "varZ_x": varZ_x, "z_x": z_x
@@ -78,7 +77,7 @@ class DecoderNet(nn.Module):
 
 
     def forward(self, z):
-        sigmoid_x = self.fx_z_call(z)     #    okay so there is also apparently no need to have the flattening in here. I suppose that is because its being output from the nn?
+        sigmoid_x = self.fx_z_call(z)
         return {
             "sigmoid_x": sigmoid_x
         }
