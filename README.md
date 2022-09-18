@@ -82,7 +82,7 @@ Vae4 categorizes the value as an element in the <b>5-cluster</b>. Suppose we wou
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/similarity1.png" width=500 height=241 />
   </kbd>
 </p>
-On dimensions 49 and 39 we see that the <b>anomalous-5</b> and the <b>standard-5</b> are very similar. Vae4 is saying that the <b>anomalous-5</b>, with respect to its "<i>over-all width</i>", as well as it's "<i>average width of line</i>" could have very probably been generated from the <i>standard-5 parameterization</i> distribution. This is in the context of hypothesis testing, naturally.
+On dimensions 49 and 39 we see that the <b>anomalous-5</b> and the <b>standard-5</b> are very similar. Vae4 is saying that the <b>anomalous-5</b>, with respect to its "<i>over-all width</i>", as well as it's "<i>average width of line</i>" could have very probably been generated from the <b><i>standard-5 parameterization</i></b> distribution. This is in the context of hypothesis testing, naturally.
 <br>
 <br>
 <br>
