@@ -42,7 +42,7 @@ class Vae1:
         self.network.train()
         total_epoch_loss = 0.0
 
-        for (i, data) in enumerate(data_loader):    #[WARNING]: This has 2 tensors for each loader entry. Usually this means an i-(label) and data-(data).
+        for (i, data) in enumerate(data_loader):
             my_optimizer.zero_grad()
             input_data = data.view(data.size(0), -1)
 
