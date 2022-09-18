@@ -92,7 +92,7 @@ On dimensions 49 and 39 we see that the <b>anomalous-5</b> and the <b>known-5</b
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/difference1.png" width=500 height=241 />
   </kbd>
 </p>
-However, we see here what the particularities of the <b>anomalous-5</b> actually are. Vae4 is saying that the "<i>top horizontal line length</i>" of the 5, has an abnormally large value (dimension 34). Vae4 is also saying that the "<i>lower-loop to upper-loop size ratio</i>" is abnormally in favor of the "<i>upper-loop</i>" (dimension 44).
+However, we see here what the particularities of the <b>anomalous-5</b> actually are. Vae4 is saying that the "<i>top horizontal line length</i>" of the <b>5</b>, has an abnormally large value (dimension 34). Vae4 is also saying that the "<i>lower-loop to upper-loop size ratio</i>" is abnormally in favor of the "<i>upper-loop</i>" (dimension 44).
 
 <br>
 <br>
