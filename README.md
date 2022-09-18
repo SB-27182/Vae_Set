@@ -12,7 +12,7 @@
 
 
 ## `Vae1:` &nbsp;
-Vae1 is a foundational model. It is uses a multivariate Gaussian as the latent distribution and either a continuous-bernoulli or gaussian reconstruction density depending on the data type.
+Vae1 is a foundational model. It uses a multivariate Gaussian as the latent distribution and either a continuous-bernoulli or gaussian reconstruction density depending on the data type.
 <br>
 <br>
 It is designed to be a very robust and explicit VAE model. This explicit coding style allows for significant access to the inner workings of the model. Thus, Vae1 can be quickly extended into novel experimental architectures. Below are some of the design choices that make this possible.
@@ -28,7 +28,7 @@ Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects
 <br>
 
 #### `Explicit Probability Densities:`
-The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the multivariate gaussian density, contains observable elements that can be added and scaled, equipt with a "stochastic-inner-product" (probability), while still being inside the span of the Gaussian density. This is to say, the latent density is closed under addition and scalar multiplication; it also has a measure of magnitude. Indeed, the multivariate gaussian is a Hilbert space.
+The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the multivariate gaussian density, contains observable elements that can be added and scaled, equipped with a "stochastic-inner-product" (probability), while still being inside the span of the Gaussian density. This is to say, the latent density is closed under addition and scalar multiplication; it also has a measure of magnitude. Indeed, the multivariate gaussian is a Hilbert space.
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=480 height=268 />
