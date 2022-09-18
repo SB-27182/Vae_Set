@@ -24,7 +24,7 @@ It is designed to be a very robust and explicit VAE model. This explicit coding 
 
 
 #### `Dictionary Passing:`
-Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects between each other. This allows extensions, wherein new objects need to be passed, to be built easily.
+Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects between each other. This allows extensions, wherein new objects need to be passed, to be easily appended.
 <br>
 
 #### `Explicit Probability Densities:`
@@ -46,11 +46,11 @@ After training a Vae1, the model state is saved. Analysis-specific variants of V
 
 # `Vae4:` &nbsp; A Gaussian-Categorical-Joint Density Model
 Data is often recognized as existing in some high dimensional manifold. This manifold represents the behavior of the underlying generator function, and thus ML architectures like invertible flow networks, can learn these hyper-dimensional smooth structures. <br>
-However in real life, there are often many "states" that these generator functions can be in. In the study of dynamical systems, these "states" are usually intuited as different parameterizations of the underlying generator function, following bifurcation events. 
-(But that's neither here nor there, the point is these "states" exist in data).
+However in real life, there are often many "states" that these generator functions can be in. In the study of dynamical systems, these "states" are usually intuited as different parameterizations of the underlying generator function (usually due to an unseen bifurcation event). 
+But that's neither here nor there, the point is these "states" exist in data.
 <br>
 <br>
-To a geometer, these would be described as "discrete structures" in the manifold. To a statistician, the data would be described as multi-modal, or "clustered". At anyrate, Vae4 uses a categorical-multivariate gaussian-joint density as the latent probability distribution to  <ins>**learn this manifold without the use of any labels.**</ins>
+To a geometer, these would be described as "discrete structures" in the manifold. To a statistician, the data would be described as multi-modal, or "clustered". At anyrate, Vae4 uses a categorical, multivariate gaussian joint-density as the latent probability distribution to  <ins>**learn this manifold without the use of any labels.**</ins>
 <br>
 <br>
 
