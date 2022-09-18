@@ -14,15 +14,11 @@ class Vae1_network(nn.Module):
         self.decoder_network = DecoderNet(x_dim, z_dim)
 
     def forward(self, x):
-        #Maybe its better to use an assertion here?
         assert x.dim() == 2, "x-input was not a 2-dim flattened tensor!"
-        x = x.view(x.size(0), -1) #flatten data to a [n x (remaining)] (again to make sure?)
-
         latent_mapped_data = self.encoder_network(x)
         z = latent_mapped_data.get("z_x")
 
         decoder_mapped_data = self.decoder_network(z)
-
         return latent_mapped_data|decoder_mapped_data
 
 
