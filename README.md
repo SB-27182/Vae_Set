@@ -5,7 +5,7 @@
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/topOfSeven.jpg" width=700 height=77 />
   </kbd>
   <br>
-  <sub>Here is a latent structure found to exist only for the number 7.<br> This is a normally distributed feature. <br> See Vae4 (below)</sub> 
+  <sub>Here is a latent structure of about 80 variables, found to exist only for the number 7.<br> This is a normally distributed feature. <br> See Vae4 (below)</sub> 
 </p>
 <br>
 <br>
