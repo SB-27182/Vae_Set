@@ -72,7 +72,7 @@ Suppose we obtain an anomalous observation from nature. (In reality, this can be
 </p>
 We want to know what this value should be categorized as. As can be seen <ins>there is very little overlap of the anomaly's <i>discrete-signal</i> and the <i>2-discrete-signal</i></ins>. Naturaly, Vae4 does not categorize the anomalous observation as a <b>2</b>.
 <br>
-Vae4 categorizes the value as an element in the <b>5-cluster</b>. To answer the question of <i><b>why</b></i> the anomalous data is categorized as a <b>5</b>, we want to see how it compares to a <b>known-5</b> that is already an element of the <b>5-cluster</b>.
+Vae4 categorizes the value as an element in the <b>5-cluster</b>. To answer the question of <i><b>why</b></i> the anomalous data is categorized as a <b>5</b>, we may investigate how it compares to a <b>known-5</b> that is already an element of the <b>5-cluster</b>.
 <br>
 <br>
 <br>
