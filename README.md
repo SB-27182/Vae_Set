@@ -28,7 +28,7 @@ Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects
 <br>
 
 #### `Explicit Probability Densities:`
-The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the family of multivariate gaussian densities, contains parameterized elements that can be added and scaled, while still being inside the span of possible multivariate-Gaussian densities. This is to say, the space of parameterized latent density functions is closed under addition and scalar multiplication. Indeed, the multivariate gaussian is a mathematical Vector space.
+The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the family of multivariate gaussian densities, contains parameterized elements that can be added and scaled, while still being inside the span of possible multivariate-Gaussian densities. This is to say, the space of parameterized latent density functions is closed under addition and scalar multiplication. Indeed, parameterized multivariate gaussians describe a mathematical Vector space.
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=480 height=268 />
