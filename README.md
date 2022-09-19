@@ -28,13 +28,13 @@ Every component of Vae1 (encoder, sampling layer, etc) passes dictionary objects
 <br>
 
 #### `Explicit Probability Densities:`
-The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the multivariate gaussian density, contains observable elements that can be added and scaled, equipped with a "stochastic-inner-product" (probability), while still being inside the span of the Gaussian density. This is to say, the latent density is closed under addition and scalar multiplication; it also has a measure of magnitude. Indeed, the multivariate gaussian is a Hilbert space.
+The latent probability layers/likelihoods are written explicitly. This reveals the simple laws a variational auto encoder must abide by. We see that the heart of most VAE models, the multivariate gaussian density, contains observable elements that can be added and scaled, equipped with a "stochastic-inner-product" (probability), while still being inside the span of the Gaussian density. This is to say, the latent density is closed under addition and scalar multiplication; it also has a measure of magnitude. Indeed, the multivariate gaussian is a Vector space.
 <p align="center">
   <kbd>
   <img src="https://github.com/SB-27182/Vae_Set/blob/master/readme_images/explicit_probs.png" width=480 height=268 />
   </kbd>
 </p>
-Disentanglement/principal-component-analysis, are the consequences of this orthogonal Hilbert space. Naturally, this opens the door for many new theoretical modifications of the VAE. Another Hilbert space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data. In this regard, there is a shared core structure between transformers and VAEs. It seems hybrid models are possible. 
+Disentanglement/principal-component-analysis, are the consequences of this orthogonal vector basis. Naturally, this opens the door for many new theoretical modifications of the VAE. Another vector space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data. In this regard, there is a shared core structure between transformers and VAEs. It seems hybrid models are possible. 
 <br>
 
 #### `Analysis specific models:`
