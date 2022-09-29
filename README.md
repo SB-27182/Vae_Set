@@ -97,4 +97,4 @@ However, we see here what the particularities of the <b>anomalous-5</b> actually
 <br>
 <br>
 
- <sub>**Note: Vae2,3,4 are not in this repo at this time. Some of these expiramental models may be publishable.**</sub> 
+ <sub>**Note: Vae2,3,4 are not in this repo at this time. Some of these experimental models may be publishable.**</sub> 
