@@ -45,7 +45,7 @@ After training a Vae1, the model state is saved. Analysis-specific variants of V
 <br>
 
 # `Vae4:` &nbsp; A Gaussian-Categorical-Joint Density Model
-Data is often recognized as existing in some high dimensional manifold. This manifold represents the behavior of the underlying generator function, and thus ML architectures like invertible flow networks, can learn these hyper-dimensional smooth structures. <br>
+Data is often recognized as existing in some high dimensional manifold. This manifold represents the behavior of the underlying generator function, and thus ML architectures like invertible flow networks, can learn these associated hyper-dimensional smooth structures. <br>
 However in real life, there are often many "states" that the generator function of the observed data can be in. In the study of dynamical systems, these "states" are usually intuited as different parameterizations of the underlying generator function (usually due to an unseen bifurcation event). 
 But that's neither here nor there, the point is these "states" exist in data.
 <br>
