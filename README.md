@@ -42,6 +42,7 @@ Disentanglement/Independent-Component-Analysis in this setting, are the conseque
 
 <br>
 <br>
+
 #### `Analysis specific models:`
 After training a Vae1, the model state is saved. Analysis-specific variants of Vae1 are then able to load in this saved state. The analysis-specific Vae1 variants are well equipped to traverse the latent density using many parameterized, and manual algorithms. This encapsulation allows different types of analysis-specific extensions to be written apart from the training of the model.
 <br>
