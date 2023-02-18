@@ -36,7 +36,7 @@ The latent probability layers/likelihoods are written explicitly. This reveals t
 </p>
 Disentanglement/Independent-Component-Analysis in this setting, are the consequences of an orthogonal vector basis. Naturally, this opens the door for many new theoretical modifications of the VAE. Another generalized vector space that has caused revolutionary developments in NLP is the Fourier space. Indeed, attention-based/transformer models use a frequency basis to encode latent signals of sequential data. There is a shared, mathematical core structure between transformers and VAEs. It seems direct hybrid models (as opposed to rather in-direct models like DallE) are possible. 
 <br>
-_ _**[NOTE: Although it is interesting to explicitly include the exponential-form of the probability densities to be used for the cost function, in any applied sense, it is much better to use the log-density instead! To see why this is, please see my R repository concerning log-density vs. exponential density cost functions.]**_ _
+**[NOTE: Although it is interesting to explicitly include the exponential-form of the probability densities to be used for the cost function, in any applied sense, it is much better to use the log-density instead! To see why this is, please see my R repository concerning log-density vs. exponential density cost functions.]**
 <br>
 <br>
 #### `Analysis specific models:`
