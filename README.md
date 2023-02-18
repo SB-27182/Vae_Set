@@ -38,7 +38,7 @@ Disentanglement/Independent-Component-Analysis in this setting, are the conseque
 
 <br>
 
-**[NOTE:]** _ _Although it is interesting to explicitly include the exponential-form of the probability densities to be used for the cost function, in any applied sense, it is much better to use the log-density instead! To see why this is, please see my R repository concerning log-density vs. exponential density cost functions.]_ _
+**[NOTE:]**  _Although it is interesting to explicitly include the exponential-form of the probability densities to be used for the cost function, in any applied sense, it is much better to use the log-density instead! To see why this is, please see my R repository concerning log-density vs. exponential density cost functions.]_ 
 
 <br>
 <br>
